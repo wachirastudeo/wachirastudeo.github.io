@@ -19,6 +19,7 @@
   --first-color-light: #eae7e6;
   --first-color-light-dark: #d7dcee;
   --first-color-lighten: #fffafa;
+  --link-color: #154c79;
 
   /* Font & Typography */
   --body-font: "Poppins", sans-serif;
@@ -91,7 +92,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--link-color);
 }
 
 img {
@@ -334,6 +335,7 @@ img {
   align-items: center;
   padding-left: 1.5rem;
   margin-bottom: var(--mb-3);
+  font-weight: 500;
 }
 
 .about__information-icon {
